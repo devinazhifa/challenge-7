@@ -85,8 +85,8 @@ const input = () => {
     
   return (
     <>
-      <div className='flex items-center h-screen w-full bg-teal-lighter'>
-        <div className='w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto'>
+      <div className='flex items-center h-screen w-full bg-teal-lighter mt-8'>
+        <div className='w-full bg-white rounded shadow-lg p-8 md:max-w-sm md:mx-auto'>
           <h2 className='text-2xl text-gray-700 p-8 font-bold text-center'>Input</h2>
 
           { (showFormMessage === true ) && 

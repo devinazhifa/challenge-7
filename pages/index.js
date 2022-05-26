@@ -27,7 +27,6 @@ const index = () => {
             return(
               <div 
                 key={student.id}
-                // onClick={() => router.push(`/student/${student.id}`)}
                 className='border-solid border-2 border-gray-150 rounded-md p-4'  
               >
                 {student.attributes.photo.data !== null && 
